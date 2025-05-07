@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+}
+
+p {
+  margin: 10px 0 0 ;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}

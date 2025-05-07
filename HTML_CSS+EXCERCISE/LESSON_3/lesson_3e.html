@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 50px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+        }
+        .linkedin { background: rgb(10, 102, 194); color: white; }
+        .save { background: white; color: black; border: 1px solid rgb(10, 102, 194); }
+        .save:hover { border-width: 2px; }
+        .linkedin:hover { background: rgb(15, 54, 92); }
+    </style>
+</head>
+<body>
+    <button class="button linkedin">Apply on company website</button>
+    <button class="button save">Save</button>
+</body>
+</html>
