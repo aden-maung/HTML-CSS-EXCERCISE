@@ -1,0 +1,139 @@
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraf {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  font-weight: bold
+}
+
+.button-container {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.img1 {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
+.textbox2 {
+  width: 400px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  padding: 0 15px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.textbox3 {
+  display: inline-block;
+  width: 15vh;
+  height: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 3px gray;
+}
+
+.textbox4 {
+  width: 31.2vh;
+  height: 25px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 3px gray;
+
+}
+
+.signup {
+  background-color: rgb(37, 37, 233);
+  width: 32vh;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.signup:hover {
+  background-color: rgb(59, 59, 259);
+}
+
+.d {
+  text-align: center;
+}
+
+.uber-request-form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+.uber-request-form h3 {
+  margin-bottom: 20px;
+  font-size: 29px;
+  color: #333;
+}
+
+.uber-request-form input[type="text"] {
+  width: 105%; /* Made inputs slightly wider */
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 7px 10px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  background-color: #ccc;
+}
+
+.uber-request-form button {
+  width: 45%;
+  height: 35px;
+  margin: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.uber-request-form .request {
+  background-color: #000;
+  color: #fff;
+}
+
+.uber-request-form .request:hover {
+  background-color: #333;
+}
+
+.uber-request-form .schedule {
+  background-color: #ccc;
+  color: #000;
+}
+
+.uber-request-form .schedule:hover {
+  background-color: #aaa;
+}
+
+.uber-request-form input[type="text"],
+.uber-request-form button {
+  border-radius: 0;
+}
