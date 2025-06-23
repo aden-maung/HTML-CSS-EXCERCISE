@@ -1,0 +1,78 @@
+  .video-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      background: #fff;
+      padding: 15px;
+      width: 360px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .channel-wrapper {
+      position: relative;
+    }
+
+    .channel-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .channel-popup {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      display: none;
+      width: 200px;
+      z-index: 100;
+    }
+
+    .channel-popup img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .channel-popup .channel-name {
+      font-weight: bold;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .channel-popup .subscribers {
+      color: #555;
+      font-size: 12px;
+    }
+
+    .channel-wrapper:hover .channel-popup {
+      display: block;
+    }
+
+    .video-info {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .video-title {
+      font-weight: bold;
+      font-size: 16px;
+
+    }
+
+    .channel-text-name {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .thumbnail img{
+      width: 100%;
+
+      cursor: pointer;
+    }
